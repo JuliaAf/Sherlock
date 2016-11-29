@@ -1,0 +1,81 @@
+.service {
+  padding: 100px 0;
+
+  background: #e8e8e8 url(../img/carrepair.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+  & .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  & h2 {
+    flex-basis: 100%;
+  }
+  &__item {
+    display: flex;
+    flex-basis: 30%;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 20px;
+
+    background: url(../img/shk.svg);
+    background-color: @white;
+    background-position: -40px 102%;
+    background-size: 330%;
+    border: 5px solid @orange;
+  }
+  &__item > *:not(.service__price) {
+    padding: 0 20px;
+  }
+  &__item-list li::before {
+    content: "\f192";
+
+    display: inline-block;
+    margin-right: 10px;
+
+    font-family: "FontAwesome";
+  }
+  &__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: auto;
+    padding: 10px 20px;
+
+    font-weight: 700;
+    font-size: 22px;
+
+    background: @orange;
+  }
+  &__price span:nth-of-type(2) {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: right;
+    color: #ffffff;
+  }
+  & h3 {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media(max-width:768px) {
+  .service {
+    padding: 40px 0;
+  }
+}
+
+@media(max-width:768px) {
+  .service {
+    &__item {
+      flex-basis: 100%;
+      min-height: 200px;
+      margin-bottom: 30px;
+
+      background-position: -40px 92%;
+    }
+  }
+}

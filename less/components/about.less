@@ -1,0 +1,42 @@
+.about {
+  padding: 100px 0;
+  &__content {
+    width: 70%;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.2em;
+  }
+  &__title span:first-child {
+    font-size: 45px;
+    color: @orange;
+  }
+}
+@media(max-width:992px) {
+  .about {
+    padding-top: 40px;
+    &__title {
+      font-size: 30px;
+    }
+    &__title span:first-child {
+      font-size: 40px;
+    }
+    &__content {
+      width: 100%;
+    }
+  }
+}
+@media(max-width:768px) {
+  .about {
+    padding: 40px 0;
+    &__title {
+      padding-top: 0;
+
+      font-size: 25px;
+    }
+    &__title span:first-child {
+      font-size: 35px;
+    }
+  }
+}

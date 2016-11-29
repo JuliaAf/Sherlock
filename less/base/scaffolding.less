@@ -1,0 +1,85 @@
+body {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6em;
+  font-family: "Ubuntu", Arial, sans-serif;
+  color: @text-color;
+
+  -webkit-font-smoothing: antialiased;
+}
+h1 {
+  font-weight: 700;
+  line-height: 1.2em;
+  font-family: "Comfortaa", Arial, sans-serif;
+  color: @white;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 40px;
+
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2em;
+  font-family: "Ubuntu", Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+h3 {
+  font-weight: 700;
+  font-weight: 700;
+  font-size: 25px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+
+  list-style-type: none;
+}
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+
+.mark {
+  font-weight: 700;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+@media(max-width:992px) {
+  body {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+}
+@media(max-width:768px) {
+  body {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+@media(max-width:576px) {
+  body {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}

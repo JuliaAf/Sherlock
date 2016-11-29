@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg3581"
+   version="1.1"
+   xml:space="preserve"
+   width="2500"
+   height="2466.25"
+   viewBox="0 0 2500 2466.25"><metadata
+     id="metadata3587"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs3585"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3595"><path
+         d="m 0,1973 2000,0 L 2000,0 0,0 0,1973 Z"
+         id="path3597" /></clipPath></defs><g
+     style="fill:#ffd4be"
+     transform="translate(-1275.5326,664.34337)"
+     id="g3365"><g
+       id="g3603"
+       transform="matrix(1.25,0,0,-1.25,1590.0776,1413.9466)"
+       style="fill:#ffd4be"><path
+         d="m 0,0 c -88.944,0 -161.047,72.103 -161.047,161.047 0,88.944 72.103,161.047 161.047,161.047 88.944,0 161.047,-72.103 161.047,-161.047 C 161.047,72.103 88.944,0 0,0 m 0,412.683 c -138.753,0 -251.636,-112.883 -251.636,-251.636 0,-138.752 112.883,-251.636 251.636,-251.636 138.753,0 251.636,112.884 251.636,251.636 C 251.636,299.8 138.753,412.683 0,412.683"
+         style="fill:#ffd4be;fill-opacity:0.5;fill-rule:nonzero;stroke:none"
+         id="path3605" /></g><g
+       id="g3607"
+       transform="matrix(1.25,0,0,-1.25,2086.067,1780.0406)"
+       style="fill:#ffd4be"><path
+         d="m 0,0 -11.113,-9.577 c -16.744,-14.429 -45.438,-8.582 -64.089,13.061 l -139.884,162.322 c -18.651,21.643 -20.197,50.886 -3.452,65.316 l 11.113,9.577 c 16.744,14.429 45.438,8.582 64.089,-13.061 L -3.452,65.315 C 15.199,43.673 16.745,14.43 0,0"
+         style="fill:#ffd4be;fill-opacity:0.5;fill-rule:nonzero;stroke:none"
+         id="path3609" /></g></g></svg>
