@@ -4,7 +4,7 @@ section.contacts#contacts
     form.contacts__form(method="POST", action="php/mail.php")
       input(type="text", placeholder="Имя", name="name", required)
       input(type="text", placeholder="Телефон", name="phone", required)
-      input(type="email", placeholder="email", name="email")
+      input(type="email", placeholder="email", name="email", required)
       textarea(placeholder="Оставьте свое сообщение", name="message")
       button(name="submit") Отправить
   .contacts__map#map

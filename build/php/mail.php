@@ -11,7 +11,8 @@ echo '   ';
 echo $_POST['token'];
 
 	$message ='<h2>Сообщение с Sherlock SPB</h2>
-		<p>От <b>'.$_REQUEST['name'].'</b></p>
+		<p>От: <b>'.$_REQUEST['name'].'</b></p>
+		<p>Телефон: <b>'.$_REQUEST['phone'].'</b></p>
 		<p>Email: <b>'.$_REQUEST['email'].'</b></p>
     <p>Сообщение : <b>'.$_REQUEST['message'].'</b></p>';
 
@@ -21,7 +22,7 @@ echo $_POST['token'];
 	$mail = new PHPMailer();
 	$mail->From = "Sherlock SPB";
 	$mail->FromName = "Sherlock SPB";
-	$mail->AddAddress('a290288@gmail.com');
+	$mail->AddAddress('a290288@gmail.com, sherlock73@yandex.ru');
 	$mail->IsHTML(true);
 	$mail->Subject = "Sherlock SPB сообщение от ".$_REQUEST['name'];
 	$mail->Body = $message;

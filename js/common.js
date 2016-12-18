@@ -86,19 +86,19 @@ $(document).ready(function(){
 });
 
 
-
-  $(".header__nav").on("click","a", function (event) {
-      event.preventDefault();
-      var id  = $(this).attr("href"),
-          top = $(id).offset().top -50;
-      $("body,html").animate({scrollTop: top}, 500);
-      return false;
-  });
+  if($(window).width() > 768){
+    $(".header__nav, .about__content-final").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr("href"),
+            top = $(id).offset().top -50;
+        $("body,html").animate({scrollTop: top}, 500);
+        return false;
+    })
+  };
 
 
   $(function (){
 		$(".scrolltop").hide();
-
 		$(window).scroll(function (){
 			if ($(this).scrollTop() > 700){
 				$(".scrolltop").fadeIn();
@@ -116,6 +116,18 @@ $(document).ready(function(){
 	});
 
 
+
+  /*wow*/
+  wow = new WOW(
+      {
+      boxClass:     'wow',      // default
+      animateClass: 'animated', // default
+      offset:       0,          // default
+      mobile:       true,       // default
+      live:         true        // default
+    }
+    )
+    wow.init();
 
 
 
