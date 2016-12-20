@@ -129,7 +129,10 @@ $(document).ready(function(){
     )
     wow.init();
 
+    /*sale close*/
+$(".sale__close").click(function(){
+  $(".overlay, .sale").hide()
 
-
+})
 
 });//ready end
